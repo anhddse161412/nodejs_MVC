@@ -1,0 +1,26 @@
+GET http://localhost:3000/person/all
+
+###
+
+GET http://localhost:3000/person/61b9e6e58b6b9b3b18f6aafd
+
+###
+POST http://localhost:3000/person/post
+Content-Type: application/json
+
+{
+  "title": "this is one from rest",
+  "description": " this iss description"
+}
+
+###
+PUT http://localhost:3000/person/put/61b9e611dad4b711c4434d97
+Content-Type: application/json
+
+{
+  "title": "updated",
+  "description": " this iss description"
+}
+
+###
+DELETE http://localhost:3000/person/delete/61ba3825800ad936b67c8009
